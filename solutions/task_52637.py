@@ -2,23 +2,20 @@
 # Survey of Programming Languages — KU-SoPL-2026
 # Student ID : 52637
 # ============================================================
-# INSTRUCTIONS
-# ------------
-# Implement the functions below according to the task
-# description provided by your instructor.
-#
-# Rules:
-#   - Python 3 only.
-#   - No external libraries unless explicitly permitted.
-#   - Do not rename this file.
-#   - Run with: python task_52637.py
+# TASK
+# ----
+# Return the sum of digits that are prime (2, 3, 5, or 7).
 # ============================================================
 
 
-def solution():
-    # TODO: implement your solution here
+def solve(id: str) -> int:
+    """
+    Implement your task here.
+    Your id is passed as a string.
+    Return an integer.
+    """
     pass
 
 
 if __name__ == "__main__":
-    solution()
+    print(solve("52637"))

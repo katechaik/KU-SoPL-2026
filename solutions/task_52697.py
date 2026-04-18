@@ -2,23 +2,20 @@
 # Survey of Programming Languages — KU-SoPL-2026
 # Student ID : 52697
 # ============================================================
-# INSTRUCTIONS
-# ------------
-# Implement the functions below according to the task
-# description provided by your instructor.
-#
-# Rules:
-#   - Python 3 only.
-#   - No external libraries unless explicitly permitted.
-#   - Do not rename this file.
-#   - Run with: python task_52697.py
+# TASK
+# ----
+# Return the sum of digits at EVEN positions (1-indexed: positions 1,3,5,...).
 # ============================================================
 
 
-def solution():
-    # TODO: implement your solution here
+def solve(id: str) -> int:
+    """
+    Implement your task here.
+    Your id is passed as a string.
+    Return an integer.
+    """
     pass
 
 
 if __name__ == "__main__":
-    solution()
+    print(solve("52697"))
