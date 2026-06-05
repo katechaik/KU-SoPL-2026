@@ -17,12 +17,14 @@
 
 def solve(id: str) -> int:
     """
-    Implement your task here.
-    Your id is passed as a string.
-    Return an integer.
+    Return the product of digits at positions 0,2,4,... (0-indexed).
+    - digits are extracted from your ID string
+    - ignore the "-ex" surfix if present
     """
-    pass
-
+    result = 1
+    for i in range(0, len(id), 2):
+        result *= int(id[i])
+    return result 
 
 if __name__ == "__main__":
     print(solve("52568"))
